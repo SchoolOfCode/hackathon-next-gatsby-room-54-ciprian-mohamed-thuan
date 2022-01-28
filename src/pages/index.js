@@ -129,7 +129,7 @@ const links = [
 const IndexPage = () => {
 	async function fetchEvents() {
 		const response = await fetch(
-			`https://app.ticketmaster.com/discovery/v2/events.json?size=1&city=London&apikey=${process.env.REACT_APP_API_KEY}`
+			`https://app.ticketmaster.com/discovery/v2/events.json?size=1&city=London&apikey=${process.env.API_KEY}`
 		)
 		const data = await response.json()
 		console.log('data: ', data)

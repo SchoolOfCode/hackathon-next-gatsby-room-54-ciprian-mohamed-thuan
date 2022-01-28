@@ -1,54 +1,76 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Gatsby / Next Research Hackathon
 
-## 🚀 Quick start
+So far we have mainly use `create-react-app` to help us build react apps.
+`create-react-app` sets out some boiler plate code and give us a development
+server, and the rest is up to us. Both Gatsby and Next do more behind the scenes
+to help you make the best application you can, but they are subtly different.
+Gatsby is a "static site generator", while next does "server-side rendering".
+What do these mean? That's what you are going to find out.
 
-1.  **Create a Gatsby site.**
+## Task
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Build an app in either Gatsby or Next, decided by the code below:
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+```js
+if (roomNumber % 2 === 0) {
+	console.log('You are doing gatsby')
+} else {
+	console.log('you are doing next')
+}
+```
 
-2.  **Start developing.**
+Research what it is that it does well.
 
-    Navigate into your new site’s directory and start it up.
+Your site should have...
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- Multiple pages
+  - That you can navigate between
+  - One of which fetches data from an api
+  - One of which is interactive and stateful
 
-3.  **Open the code and start customizing!**
+You should research...
 
-    Your site is now running at http://localhost:8000!
+- What makes your option different from Create React App
+- What use cases there are for your option
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Result
 
-4.  **Learn more**
+At the end of the day you will pair up with another team that did the other
+option. Share the knowledge you've picked up and understand what the other team
+has learned.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Links
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Here are some starters, but make sure to do your own research too!
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Gatsby Links
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+[gatsby docs](https://www.gatsbyjs.com/docs/)
+[gatsby quick start](https://www.gatsbyjs.com/docs/quick-start/)
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Next Links
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+[next getting started](https://nextjs.org/docs)
 
-## 🚀 Quick start (Gatsby Cloud)
+### API Links
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+[Public APIs](https://github.com/public-apis/public-apis)
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+### Helpful Hints
+
+- Don't just jump straight into this, learn about your framework FIRST
+- You only have a day, so remember to scale your plan accordingly
+- We have deliberately not set up any starter code, as there are two possible
+  setups
+- TDD can be helpful
+- remember the 15/15 rule - 15 mins discussing in your team, 15 mins searching
+  online, and then ask for help
+
+### When Asking For Help
+
+Please post all requests in the Help Dev channel, along with
+
+- Room Number
+- A description of the problem
+- Code / error message (where relevant)
+- What you've tried already
